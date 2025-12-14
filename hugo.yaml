@@ -1,0 +1,118 @@
+baseURL: "https://zenfabric.tech/"
+languageCode: en-us
+title: ZenFabric
+theme: PaperMod
+
+# Build settings
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# Pagination (new syntax for Hugo v0.128+)
+pagination:
+  pagerSize: 10
+
+# Better URLs
+permalinks:
+  posts: /:slug/
+
+# Minify output
+minify:
+  disableXML: true
+  minifyOutput: true
+
+# SEO and search
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  description: "Practical guides on Microsoft Fabric, Power BI, and modern data engineering"
+  author: "Shubham Nagar"
+  
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecialCharacterHandling: false
+  disableScrollToTop: false
+  
+  homeInfoParams:
+    Title: "Hey there 👋"
+    Content: >
+      Welcome to ZenFabric — your resource for Microsoft Fabric, Power BI, 
+      and data engineering insights.
+      
+      
+      Explore tutorials, best practices, and real-world solutions.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/shubham184"
+    - name: linkedin
+      url: "https://linkedin.com/in/YOUR-LINKEDIN"
+    - name: rss
+      url: "/index.xml"
+
+  keywords:
+    - Microsoft Fabric
+    - Power BI
+    - Data Engineering
+    - Azure
+    - ETL
+    - Data Warehouse
+    - Analytics
+
+  cover:
+    linkFullImages: false
+    responsiveImages: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+markup:
+  highlight:
+    style: monokai
+    lineNos: false
+    codeFences: true
+    guessSyntax: true
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu:
+  main:
+    - name: Blog
+      url: /posts/
+      weight: 1
+    - name: Categories
+      url: /categories/
+      weight: 2
+    - name: Tags
+      url: /tags/
+      weight: 3
+    - name: Archive
+      url: /archives/
+      weight: 4
+    - name: Search
+      url: /search/
+      weight: 5
+    - name: About
+      url: /about/
+      weight: 6
