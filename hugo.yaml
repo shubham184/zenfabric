@@ -9,13 +9,17 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-# Pagination (new syntax for Hugo v0.128+)
+# Pagination
 pagination:
   pagerSize: 10
 
-# Better URLs
+# URL structure - section + slug
 permalinks:
-  posts: /:slug/
+  foundations: /:section/:slug/
+  architecture: /:section/:slug/
+  performance: /:section/:slug/
+  governance: /:section/:slug/
+  field-notes: /:section/:slug/
 
 # Minify output
 minify:
@@ -29,11 +33,15 @@ outputs:
     - RSS
     - JSON
 
+# Taxonomies - only tags, no categories (sections handle that)
+taxonomies:
+  tag: tags
+
 params:
   env: production
   description: "Practical guides on Microsoft Fabric, Power BI, and modern data engineering"
   author: "Shubham Nagar"
-  
+
   defaultTheme: auto
   ShowReadingTime: true
   ShowShareButtons: true
@@ -45,14 +53,14 @@ params:
   UseHugoToc: true
   disableSpecialCharacterHandling: false
   disableScrollToTop: false
-  
+
   homeInfoParams:
     Title: "Hey there 👋"
     Content: >
-      Welcome to ZenFabric — your resource for Microsoft Fabric, Power BI, 
+      Welcome to ZenFabric — your resource for Microsoft Fabric, Power BI,
       and data engineering insights.
-      
-      
+
+
       Explore tutorials, best practices, and real-world solutions.
 
   socialIcons:
@@ -98,21 +106,27 @@ markup:
 
 menu:
   main:
-    - name: Blog
-      url: /posts/
+    - name: Foundations
+      url: /foundations/
       weight: 1
-    - name: Categories
-      url: /categories/
+    - name: Architecture
+      url: /architecture/
       weight: 2
+    - name: Performance
+      url: /performance/
+      weight: 3
+    - name: Governance
+      url: /governance/
+      weight: 4
+    - name: Field Notes
+      url: /field-notes/
+      weight: 5
     - name: Tags
       url: /tags/
-      weight: 3
-    - name: Archive
-      url: /archives/
-      weight: 4
+      weight: 6
     - name: Search
       url: /search/
-      weight: 5
+      weight: 7
     - name: About
       url: /about/
-      weight: 6
+      weight: 8
