@@ -6,7 +6,15 @@
     <description>Recent content on ZenFabric</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 19 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Is Your Data Ready for AI? The Unsexy Checklist for Data Readiness</title>
+      <link>http://localhost:1313/foundations/is-your-data-ready-for-ai-the-unsexy-checklist-for-data-readiness/</link>
+      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/foundations/is-your-data-ready-for-ai-the-unsexy-checklist-for-data-readiness/</guid>
+      <description>AI projects fail because of bad data, not bad models. Here&amp;#39;s a practical checklist to audit your data foundation before you waste six months on a pilot that never ships.</description>
+    </item>
     <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>

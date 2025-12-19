@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Data Foundations on ZenFabric</title>
-    <link>http://localhost:1313/foundations/</link>
-    <description>Recent content in Data Foundations on ZenFabric</description>
+    <title>Microsoft-Fabric on ZenFabric</title>
+    <link>http://localhost:1313/tags/microsoft-fabric/</link>
+    <description>Recent content in Microsoft-Fabric on ZenFabric</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 19 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/foundations/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/microsoft-fabric/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Is Your Data Ready for AI? The Unsexy Checklist for Data Readiness</title>
       <link>http://localhost:1313/foundations/is-your-data-ready-for-ai-the-unsexy-checklist-for-data-readiness/</link>
