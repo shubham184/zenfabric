@@ -51,17 +51,19 @@ params:
   ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
+  ShowToc: true
+  TocOpen: false
+  ShowAuthor: true
   disableSpecialCharacterHandling: false
   disableScrollToTop: false
 
   homeInfoParams:
-    Title: "Hey there 👋"
+    Title: "Data Engineering. Without the Chaos."
     Content: >
-      Welcome to ZenFabric — your resource for Microsoft Fabric, Power BI,
-      and data engineering insights.
+      Practical guides on Microsoft Fabric, Power BI, and modern data architecture.
 
 
-      Explore tutorials, best practices, and real-world solutions.
+      Built from real-world experience — not just theory.
 
   socialIcons:
     - name: github
