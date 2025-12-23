@@ -42,6 +42,12 @@ params:
   description: "Practical guides on Microsoft Fabric, Power BI, and modern data engineering"
   author: "Shubham Nagar"
 
+  # Site logo in header
+  label:
+    text: ZenFabric
+    icon: images/logo.png
+    iconHeight: 42
+
   defaultTheme: auto
   ShowReadingTime: true
   ShowShareButtons: true
